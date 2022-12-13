@@ -12,7 +12,7 @@ def events(request):
     upcomingEventData = Event.objects.filter(status='UE')
     pastEventData = Event.objects.filter(status='PE')
 
-    return render(request , 'events.html', {'active': 'home', 'pevents':pastEventData, 'uevents':upcomingEventData})
+    return render(request , 'events.html', {'active': 'events', 'pevents':pastEventData, 'uevents':upcomingEventData})
 
 def archive(request):
     return render(request , 'archive.html', {'active': 'archive'})

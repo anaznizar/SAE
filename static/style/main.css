@@ -249,6 +249,7 @@ h2 {
 }
 
 .fulleventbutton {
+
     margin: 0 auto;
     background: #224E7D;
     width: fit-content;
@@ -257,7 +258,7 @@ h2 {
 
 
 .fulleventbutton p {
-
+    font-size: 1em;
     color: #fff;
     padding: .5em .75em;
     font-family: Poppins;
@@ -378,7 +379,7 @@ h2 {
     border: 2.5px solid #aaa;
     border-radius: 5px;
     height: 6vh;
-    
+
     width: 100%;
 }
 
@@ -464,14 +465,13 @@ h2 {
 
 @media screen and (max-width: 600px) {
     .on {
-        position: relative;
-        top: -1em;
         background-color: #fff;
         padding-left: 0;
         padding-bottom: 1em;
         margin: 0;
         display: block;
         list-style-type: none;
+
     }
 
     .on .navitem {
